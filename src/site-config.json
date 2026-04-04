@@ -1,0 +1,536 @@
+{
+  "business": {
+    "name": "Apex Auto Detailing",
+    "phone": "555-aut-r92",
+    "category": "auto-detailing",
+    "city": "Savannah",
+    "state": "GA"
+  },
+  "design": {
+    "preset": {
+      "id": "auto-detailing-red-charge",
+      "categoryGroup": "auto-detailing",
+      "name": "Red Charge",
+      "recipeFile": "auto-detailing/red-charge.astro",
+      "colors": {
+        "primary": "#111827",
+        "primaryDark": "#030712",
+        "primaryLight": "#c4c5c9",
+        "secondary": "#0f1623",
+        "accent": "#F59E0B",
+        "background": "#FFFFFF",
+        "backgroundAlt": "#111827",
+        "surface": "#F5F7FA",
+        "text": "#111827",
+        "textLight": "#6B7280",
+        "textOnDark": "#FFFFFF",
+        "border": "#E5E7EB"
+      },
+      "typography": {
+        "headingFont": "DM Sans",
+        "headingWeight": "700",
+        "bodyFont": "Inter",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.2"
+      },
+      "shape": {
+        "borderRadius": "8px",
+        "buttonRadius": "8px",
+        "cardRadius": "12px",
+        "shadowStyle": "soft"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "balanced"
+      }
+    },
+    "recipeId": "auto-detailing/red-charge"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Savannah's Auto Detailing Perfectionists",
+      "heroSubline": "We restore vehicles to showroom condition in Savannah's harsh coastal climate. Every swirl mark removed, every surface protected against salt air corrosion.",
+      "aboutTitle": "Precision Detailing for Coastal Georgia",
+      "aboutText": [
+        "Founded in 2012, Apex Auto Detailing grew from a passion for automotive preservation in Savannah's punishing environment. Our team studied corrosion patterns specific to Lowcountry vehicles before developing protective protocols.",
+        "We approach each vehicle like conservators restoring fine art. The same humidity that preserves Savannah's historic architecture accelerates automotive decay - we counteract it with scientific precision.",
+        "As active members of Savannah's automotive community, we sponsor local car shows and offer discounts to military families stationed at Hunter Army Airfield."
+      ],
+      "valueProps": [
+        {
+          "title": "Climate-Adapted Protection",
+          "description": "Ceramic coatings formulated for Savannah's salt air and 90% humidity prevent premature aging."
+        },
+        {
+          "title": "Historic District Convenience",
+          "description": "Mobile service available throughout downtown Savannah, including private garages in the Historic District."
+        },
+        {
+          "title": "Paintwork Archaeology",
+          "description": "Our multi-stage correction revives original finishes on classic cars and daily drivers alike."
+        },
+        {
+          "title": "Storm Readiness",
+          "description": "Hurricane prep detailing protects your vehicle during evacuation or storage."
+        }
+      ],
+      "ctaHeadline": "Schedule Your Coastal-Grade Detailing",
+      "ctaSubline": "Limited availability for our signature ceramic protection packages - book your assessment today."
+    },
+    "services": [
+      {
+        "slug": "ceramic-coating",
+        "name": "Ceramic Coating",
+        "shortDescription": "Multi-year protection against Savannah's corrosive coastal environment.",
+        "description": "Our ceramic coating service isn't just a shiny top layer - it's a molecular bond that creates an impermeable barrier against Savannah's unique threats. The salt-laden breezes from the Atlantic accelerate oxidation, while summer humidity breeds mold in ventilation systems.\n\nWe begin with a full decontamination wash using water softened to prevent mineral deposits. After mechanical and chemical paint correction, our proprietary 9H ceramic formula is hand-applied in climate-controlled conditions - crucial for proper curing in our humid environment. The result repels everything from tree sap in Forsyth Park to industrial fallout near the port.",
+        "process": [
+          "Step 1: Iron decontamination to remove rail dust from Savannah's active train lines",
+          "Step 2: Multi-stage paint correction addressing swirls from palmetto fronds and sandy roads",
+          "Step 3: Precision application of marine-grade ceramic formula",
+          "Step 4: 48-hour curing in our humidity-controlled facility"
+        ],
+        "benefits": [
+          "5-7 year protection warranty",
+          "Eliminates 90% of wash-induced scratches",
+          "Self-cleaning properties reduce maintenance",
+          "UV protection prevents Savannah sun damage"
+        ],
+        "faq": [
+          {
+            "question": "How does your coating differ from others in Savannah?",
+            "answer": "We use a hybrid formula developed specifically for coastal climates, with added polymers to combat salt intrusion. Most national brands don't account for our unique environmental factors."
+          },
+          {
+            "question": "Can ceramic coating prevent hurricane damage?",
+            "answer": "While no product prevents all storm damage, our coating significantly reduces the risk of saltwater etching and protects against flying debris scratches during evacuations."
+          }
+        ]
+      },
+      {
+        "slug": "classic-car-restoration",
+        "name": "Classic Car Restoration",
+        "shortDescription": "Period-correct detailing preserving Savannah's automotive heritage.",
+        "description": "Savannah's historic homes deserve equally meticulous care for their classic cars. Our restoration detailing revives pre-1990 vehicles with period-appropriate techniques, from single-stage paint rejuvenation to chrome brightening methods used when these cars were new.\n\nThe Historic District's cobblestones and live oak canopies present unique challenges - we've mastered removing centuries-old oak tannin stains without harming original finishes. For convertible tops weathered by Savannah summers, we use marine-grade UV protectants developed for Tybee Island boat covers. Every step respects the vehicle's provenance while preparing it for modern coastal conditions.",
+        "process": [
+          "Step 1: Gentle hand wash with pH-neutral cleaners safe for aged finishes",
+          "Step 2: Microscopic paint analysis to determine original gloss levels",
+          "Step 3: Museum-grade wax application using traditional methods",
+          "Step 4: Interior preservation with humidity-regulating products"
+        ],
+        "benefits": [
+          "Increases resale value for Savannah collectors",
+          "Authentic finishes for historic vehicle events",
+          "Archival-quality protection",
+          "Specialized chrome care for coastal air"
+        ],
+        "faq": [
+          {
+            "question": "Do you work on cars stored in downtown carriage houses?",
+            "answer": "Absolutely. We're experienced with the unique dust patterns and limited access in Savannah's historic properties, bringing mobile equipment tailored for tight spaces."
+          },
+          {
+            "question": "Can you remove patina from barn finds?",
+            "answer": "We specialize in sympathetic preservation - stabilizing original surfaces while maintaining character. For complete restorations, we partner with local specialists."
+          }
+        ]
+      },
+      {
+        "slug": "hurricane-prep-detailing",
+        "name": "Hurricane Prep Detailing",
+        "shortDescription": "Protect your vehicle before storm season hits the Georgia coast.",
+        "description": "When hurricane warnings sound in Savannah, most residents focus on boarding windows - we safeguard what's often your second-largest investment. Our storm prep detailing creates multiple defense layers against wind-driven rain, floodwaters, and post-storm humidity.\n\nThe service begins with a full interior sealant application that repels moisture - critical when evacuating through standing water. Exterior surfaces receive extra-thick ceramic layers to prevent salt spray etching during coastal evacuations. We even treat undercarriages with corrosion inhibitors for vehicles parked in low-lying areas near the Savannah River.\n\nPost-storm, our reconditioning service reverses damage from emergency parking situations, whether it's pine needle removal from improvised shelter spots or pollen extraction after weeks outdoors.",
+        "process": [
+          "Step 1: Interior waterproofing for seats and electronics",
+          "Step 2: Enhanced exterior protection with impact-resistant coating",
+          "Step 3: Undercarriage anti-corrosion treatment",
+          "Step 4: Emergency contact information etched into protected surfaces"
+        ],
+        "benefits": [
+          "Reduces storm-related depreciation",
+          "Simplifies post-evacuation cleanup",
+          "Protects during outdoor storage",
+          "Peace of mind during chaotic times"
+        ],
+        "faq": [
+          {
+            "question": "How far in advance should I schedule before hurricane season?",
+            "answer": "We recommend April-May appointments to beat the rush. Last-minute slots fill quickly when watches are issued."
+          },
+          {
+            "question": "Do you offer post-storm reconditioning?",
+            "answer": "Yes, with priority given to prep clients. We document pre-storm condition to streamline insurance claims."
+          }
+        ]
+      },
+      {
+        "slug": "daily-driver-maintenance",
+        "name": "Daily Driver Maintenance",
+        "shortDescription": "Keep your commuter pristine despite Savannah's punishing conditions.",
+        "description": "Savannah's combination of sandy backroads, downtown construction, and salty breezes turns daily drivers into dust-covered, corrosion-prone workhorses. Our maintenance program combats these forces with scheduled interventions timed to seasonal threats.\n\nSpring services focus on pollen extraction - our compressed air systems remove yellow powder from places regular washes miss. Summer brings interior deep cleans targeting mold spores that flourish in our humidity. Fall appointments address sap and acorn stains from parking under Savannah's massive live oaks.\n\nWe've optimized every process for local commuters, from quick-drying techniques that prevent water spots during sudden thunderstorms to wheel cleaning methods that dissolve brake dust from frequent stop-and-go on Bay Street.",
+        "process": [
+          "Step 1: Engine bay degreasing to prevent sand accumulation",
+          "Step 2: Tar removal from downtown road projects",
+          "Step 3: Interior anti-microbial treatment",
+          "Step 4: Touch-up for parking lot dings common at Savannah workplaces"
+        ],
+        "benefits": [
+          "Prevents cumulative damage",
+          "Extends vehicle lifespan",
+          "Maintains resale value",
+          "Reduces allergy triggers"
+        ],
+        "faq": [
+          {
+            "question": "How often should Savannah drivers detail their cars?",
+            "answer": "We recommend quarterly treatments minimum - monthly for vehicles parked under trees or near the river."
+          },
+          {
+            "question": "Can you remove palmetto bug stains?",
+            "answer": "Our enzyme cleaners break down organic residues without damaging paint - a Savannah-specific solution we developed through trial and error."
+          }
+        ]
+      },
+      {
+        "slug": "luxury-vehicle-program",
+        "name": "Luxury Vehicle Program",
+        "shortDescription": "White-glove care for Savannah's high-end automobiles.",
+        "description": "The Historic District's luxury vehicles face unique indignities - carriage house dust, valet-induced swirls, and cocktail party fingerprints. Our discreet service preserves prestige while accommodating Savannah's social calendar.\n\nWe coordinate with downtown concierges to service vehicles during theater performances at the Lucas or rounds at the Golf Club. Our leather conditioning regimen uses humidity-balancing formulas to prevent cracking in climate-controlled garages. Even windshield cleaning receives special attention - we use distilled water to avoid mineral streaks that obscure Savannah's live oak canopies.\n\nFor seasonal residents, our storage prep includes activated charcoal pouches to prevent musty odors during humid absences. We document every service with the discretion expected by Savannah's private communities.",
+        "process": [
+          "Step 1: Paint thickness mapping to establish baseline",
+          "Step 2: Ultrasonic cleaning for intricate trim",
+          "Step 3: Hand-applied glass coating for rainy season visibility",
+          "Step 4: Microfiber storage to prevent dust accumulation"
+        ],
+        "benefits": [
+          "Maintains concours-ready condition",
+          "Discreet mobile service available",
+          "Tailored to social season needs",
+          "Preserves delicate materials"
+        ],
+        "faq": [
+          {
+            "question": "Do you service vehicles at private islands like Skidaway?",
+            "answer": "Yes, with advance notice for gated community access. We're familiar with the specific challenges of barrier island storage."
+          },
+          {
+            "question": "Can you remove champagne stains from light interiors?",
+            "Answer": "Our organic solvent system lifts celebratory residues without altering delicate leather dyes - a necessity after Savannah's many festivals."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Marcus T.",
+        "rating": 5,
+        "service": "Ceramic Coating",
+        "text": "After just one year in Savannah, my truck's paint was getting eaten alive by salt air. Apex's coating stopped the corrosion in its tracks. Two years later, it still beads water like day one - even after parking near the river all summer.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Eleanor R.",
+        "rating": 5,
+        "service": "Classic Car Restoration",
+        "text": "They brought my '67 Mustang's single-stage paint back from the dead after decades in a Tybee Island garage. The attention to original factory finishes was museum-quality. Even the judges at the Savannah Concours noticed the difference.",
+        "date": "2025-01-22"
+      },
+      {
+        "name": "David K.",
+        "rating": 5,
+        "service": "Hurricane Prep Detailing",
+        "text": "When we evacuated for the last hurricane, I didn't worry about my car sitting in a Macon parking lot for two weeks. Came back to zero water damage despite torrential rains. Their undercarriage treatment saved my brakes from corrosion.",
+        "date": "2024-11-05"
+      },
+      {
+        "name": "Lisa P.",
+        "rating": 5,
+        "service": "Daily Driver Maintenance",
+        "text": "The pollen removal service is worth every penny. No more yellow dust coating my black interior after Savannah's spring bloom. They even got it out of the air vents where other detailers never touch.",
+        "date": "2025-04-18"
+      },
+      {
+        "name": "William G.",
+        "rating": 5,
+        "service": "Luxury Vehicle Program",
+        "text": "As someone who splits time between Savannah and Atlanta, I appreciate how they prepare my car for storage. No musty smells when I return, just that new-car freshness. Their discreet mobile service fits perfectly with my downtown schedule.",
+        "date": "2025-02-03"
+      },
+      {
+        "name": "Sophia L.",
+        "rating": 5,
+        "service": "Ceramic Coating",
+        "text": "I was skeptical about ceramic coating's value until seeing how easily sap from my driveway magnolia tree wipes off now. The self-cleaning effect saves me weekly washes during Savannah's dusty summers.",
+        "date": "2024-10-11"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Savannah Auto Detailing | Coastal Protection Specialists",
+        "description": "Premium auto detailing combating Savannah's salt air, humidity, and pollen. Ceramic coatings, classic car restoration, and hurricane prep services."
+      },
+      "about": {
+        "title": "About Apex Auto Detailing | Savannah's Detail Experts",
+        "description": "Founded in Savannah, we've specialized in coastal auto protection since 2012. Learn our unique approach to preserving vehicles in harsh Lowcountry conditions."
+      },
+      "services": {
+        "title": "Savannah Auto Detailing Services | Apex Protection Plans",
+        "description": "From daily driver maintenance to concours-level restoration, our services address Savannah's specific threats to your vehicle's appearance and value."
+      },
+      "contact": {
+        "title": "Contact Savannah's Auto Detailing Specialists | Apex",
+        "description": "Schedule your coastal-grade detailing in Savannah, GA. Mobile service available throughout the Historic District and surrounding areas."
+      },
+      "reviews": {
+        "title": "Savannah Auto Detailing Reviews | Apex Client Stories",
+        "description": "See how our ceramic coatings and detailing services protect Savannah vehicles from salt air, hurricanes, and daily wear."
+      },
+      "service-areas": {
+        "title": "Auto Detailing Service Areas | Savannah & Surrounds",
+        "description": "Serving Savannah, Pooler, Richmond Hill, and coastal Georgia communities with specialized vehicle protection services."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Savannah",
+        "slug": "savannah-ga",
+        "state": "GA",
+        "content": "Apex Auto Detailing proudly serves Savannah, offering premium auto detailing services to keep your vehicle looking its best. Whether you're cruising down River Street or parked near Forsyth Park, our expert team ensures your car shines in the coastal Georgia sun. Savannah's humid climate can take a toll on your vehicle's exterior and interior, but our specialized treatments protect against salt air, pollen, and UV damage. We cater to busy professionals, families, and car enthusiasts throughout the Historic District and beyond.",
+        "localContext": "Savannah's historic charm and coastal location require special attention to vehicle protection.",
+        "nearbyAreas": [
+          "Pooler",
+          "Garden City",
+          "Thunderbolt"
+        ]
+      },
+      {
+        "city": "Pooler",
+        "slug": "pooler-ga",
+        "state": "GA",
+        "content": "Apex Auto Detailing brings top-tier vehicle care to Pooler's growing community. As Pooler continues to expand with new shopping centers and residential areas, we help keep your vehicle looking pristine amid construction dust and daily commutes. Our mobile detailing services are perfect for busy families visiting the Pooler Parkway retailers or professionals working near the Savannah/Hilton Head International Airport. We offer convenient interior and exterior packages designed for Pooler's suburban lifestyle.",
+        "localContext": "Pooler's rapid growth means vehicles face more road debris and environmental contaminants.",
+        "nearbyAreas": [
+          "Savannah",
+          "Bloomingdale",
+          "Port Wentworth"
+        ]
+      },
+      {
+        "city": "Richmond Hill",
+        "slug": "richmond-hill-ga",
+        "state": "GA",
+        "content": "Serving Richmond Hill's coastal community, Apex Auto Detailing provides exceptional vehicle care for residents commuting to Savannah or enjoying the nearby waterways. Our salt-resistant treatments are especially valuable for cars exposed to the brackish air from the Ogeechee River and coastal marshes. Whether you're driving through historic Fort McAllister or parking at J.F. Gregory Park, we'll help maintain your vehicle's showroom finish. Our ceramic coatings provide long-lasting protection against Richmond Hill's unique coastal environment.",
+        "localContext": "Richmond Hill's proximity to tidal rivers requires specialized protection against salt corrosion.",
+        "nearbyAreas": [
+          "Savannah",
+          "Midway",
+          "Keller"
+        ]
+      },
+      {
+        "city": "Garden City",
+        "slug": "garden-city-ga",
+        "state": "GA",
+        "content": "Apex Auto Detailing offers professional auto care solutions for Garden City's industrial and residential areas. Located near the Port of Savannah, we understand the challenges vehicles face from industrial fallout and heavy traffic conditions. Our paint correction services can restore vehicles affected by rail dust and pollutants common in this manufacturing and logistics hub. We serve both personal vehicles and commercial fleets throughout Garden City with flexible scheduling options.",
+        "localContext": "Garden City's industrial environment demands frequent vehicle cleaning and protection.",
+        "nearbyAreas": [
+          "Savannah",
+          "Port Wentworth",
+          "Bloomingdale"
+        ]
+      },
+      {
+        "city": "Bloomingdale",
+        "slug": "bloomingdale-ga",
+        "state": "GA",
+        "content": "For Bloomingdale residents seeking premium auto detailing, Apex Auto Detailing delivers exceptional results. Our services combat the red clay dust and pine pollen prevalent in this wooded suburban area. Whether you're commuting to Savannah or exploring the nearby Ogeechee River, we'll keep your vehicle looking its best. Our interior detailing packages are especially popular with families transporting kids to Bloomingdale Elementary or enjoying outdoor activities at Tom Triplett Park.",
+        "localContext": "Bloomingdale's rural-suburban mix means vehicles accumulate unique dirt and pollen.",
+        "nearbyAreas": [
+          "Pooler",
+          "Port Wentworth",
+          "Savannah"
+        ]
+      },
+      {
+        "city": "Port Wentworth",
+        "slug": "port-wentworth-ga",
+        "state": "GA",
+        "content": "Apex Auto Detailing serves Port Wentworth's busy community with professional mobile detailing services. Located near major shipping channels and industrial zones, we specialize in removing industrial fallout and protecting vehicles from environmental damage. Our services are popular with port employees, truck drivers, and residents alike. From thorough interior sanitization to exterior paint protection, we help maintain vehicles navigating Port Wentworth's unique industrial-residential landscape.",
+        "localContext": "Port Wentworth's proximity to shipping lanes requires frequent vehicle cleaning.",
+        "nearbyAreas": [
+          "Savannah",
+          "Garden City",
+          "Pooler"
+        ]
+      },
+      {
+        "city": "Tybee Island",
+        "slug": "tybee-island-ga",
+        "state": "GA",
+        "content": "Apex Auto Detailing provides specialized coastal vehicle care for Tybee Island residents and visitors. The salt air, sand, and intense sun require particular attention to prevent corrosion and fading. Our beach package includes thorough undercarriage cleaning to remove salt deposits and protective coatings to shield against UV damage. Whether you're parking near the pier or driving along Butler Avenue, we'll help preserve your vehicle's appearance in Tybee's harsh marine environment.",
+        "localContext": "Tybee Island's beach conditions demand rigorous vehicle protection against salt and sand.",
+        "nearbyAreas": [
+          "Savannah",
+          "Wilmington Island",
+          "Whitemarsh Island"
+        ]
+      },
+      {
+        "city": "Wilmington Island",
+        "slug": "wilmington-island-ga",
+        "state": "GA",
+        "content": "Serving Wilmington Island's waterfront community, Apex Auto Detailing offers premium protection for vehicles exposed to coastal elements. Our services help combat the effects of salt air, high humidity, and intense sunlight common in this island environment. From thorough interior detailing to exterior ceramic coatings, we help preserve your vehicle's condition whether you're commuting to Savannah or enjoying the island's marinas and golf courses. Our mobile service conveniently comes to your home or office.",
+        "localContext": "Wilmington Island's coastal location necessitates frequent vehicle protection services.",
+        "nearbyAreas": [
+          "Savannah",
+          "Whitemarsh Island",
+          "Tybee Island"
+        ]
+      },
+      {
+        "city": "Thunderbolt",
+        "slug": "thunderbolt-ga",
+        "state": "GA",
+        "content": "Apex Auto Detailing brings expert vehicle care to Thunderbolt's historic waterfront community. Our services are tailored to address the challenges of living near the Wilmington River, including protection against salty air and high humidity. Whether you're docking at the Thunderbolt Marina or commuting through this charming town, we'll keep your vehicle looking its best. Our paint protection services are particularly valuable for preserving classic cars and boats common in this area.",
+        "localContext": "Thunderbolt's riverfront location requires special attention to prevent vehicle corrosion.",
+        "nearbyAreas": [
+          "Savannah",
+          "Wilmington Island",
+          "Whitemarsh Island"
+        ]
+      },
+      {
+        "city": "Midway",
+        "slug": "midway-ga",
+        "state": "GA",
+        "content": "Apex Auto Detailing serves Midway's historic community with professional auto care solutions. Our services help combat the pollen and agricultural dust common in this rural area between Savannah and Richmond Hill. Whether you're visiting historic sites or commuting through the coastal countryside, we'll keep your vehicle looking pristine. Our interior detailing packages are especially popular with families transporting kids to local schools or enjoying outdoor activities at nearby state parks.",
+        "localContext": "Midway's rural setting means vehicles accumulate unique dirt and pollen from farmland.",
+        "nearbyAreas": [
+          "Richmond Hill",
+          "Savannah",
+          "Hinesville"
+        ]
+      },
+      {
+        "city": "Hinesville",
+        "slug": "hinesville-ga",
+        "state": "GA",
+        "content": "Apex Auto Detailing provides premium vehicle care for Hinesville's military community and residents. We understand the unique needs of Fort Stewart personnel and their vehicles, offering flexible scheduling around base commitments. Our services combat the red clay dust and pine pollen prevalent in this area while providing UV protection for vehicles parked on base or around town. From quick refreshes to full detailing packages, we help keep Hinesville's vehicles looking their best.",
+        "localContext": "Hinesville's military population requires flexible, high-quality vehicle services.",
+        "nearbyAreas": [
+          "Midway",
+          "Richmond Hill",
+          "Savannah"
+        ]
+      },
+      {
+        "city": "Whitemarsh Island",
+        "slug": "whitemarsh-island-ga",
+        "state": "GA",
+        "content": "Apex Auto Detailing serves Whitemarsh Island's residential community with specialized coastal vehicle care. Our services address the challenges of living near tidal creeks and marshes, including protection against salty air and high humidity. Whether you're commuting over the islands' bridges or enjoying the golf courses, we'll help maintain your vehicle's appearance. Our ceramic coatings provide long-lasting protection against Whitemarsh Island's unique coastal environment.",
+        "localContext": "Whitemarsh Island's tidal creek surroundings require special vehicle protection.",
+        "nearbyAreas": [
+          "Savannah",
+          "Wilmington Island",
+          "Thunderbolt"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "ceramic-coating": "/images/service-ceramic-coating.webp",
+      "hurricane-prep-detailing": "/images/service-hurricane-prep-detailing.webp",
+      "daily-driver-maintenance": "/images/service-daily-driver-maintenance.webp",
+      "luxury-vehicle-program": "/images/service-luxury-vehicle-program.webp",
+      "classic-car-restoration": "/images/service-classic-car-restoration.webp"
+    },
+    "servicesResponsive": {
+      "ceramic-coating": {
+        "src": "/images/service-ceramic-coating.webp",
+        "srcset": "/images/service-ceramic-coating-400w.webp 400w, /images/service-ceramic-coating-800w.webp 800w, /images/service-ceramic-coating-1200w.webp 1200w, /images/service-ceramic-coating.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "hurricane-prep-detailing": {
+        "src": "/images/service-hurricane-prep-detailing.webp",
+        "srcset": "/images/service-hurricane-prep-detailing-400w.webp 400w, /images/service-hurricane-prep-detailing-800w.webp 800w, /images/service-hurricane-prep-detailing-1200w.webp 1200w, /images/service-hurricane-prep-detailing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "daily-driver-maintenance": {
+        "src": "/images/service-daily-driver-maintenance.webp",
+        "srcset": "/images/service-daily-driver-maintenance-400w.webp 400w, /images/service-daily-driver-maintenance-800w.webp 800w, /images/service-daily-driver-maintenance-1200w.webp 1200w, /images/service-daily-driver-maintenance.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "luxury-vehicle-program": {
+        "src": "/images/service-luxury-vehicle-program.webp",
+        "srcset": "/images/service-luxury-vehicle-program-400w.webp 400w, /images/service-luxury-vehicle-program-800w.webp 800w, /images/service-luxury-vehicle-program-1200w.webp 1200w, /images/service-luxury-vehicle-program.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "classic-car-restoration": {
+        "src": "/images/service-classic-car-restoration.webp",
+        "srcset": "/images/service-classic-car-restoration-400w.webp 400w, /images/service-classic-car-restoration-800w.webp 800w, /images/service-classic-car-restoration-1200w.webp 1200w, /images/service-classic-car-restoration.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
